@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">GuardPlant</string>
     <string name="bottomMenu_myPlantsString">My Plants</string>
-    <string name="bottomMenu_homeString">Home</string>
     <string name="bottomMenu_reminderString">Reminders</string>
     <string name="bottomMenu_diagnoseString">Diagnose</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottomMenu_calendarString">CAREndar</string>
 </resources>
