@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/bottomMenu_home"
@@ -19,6 +20,6 @@
         android:title="@string/bottomMenu_diagnoseString" />
     <item
         android:id="@+id/bottomMenu_more"
-        android:icon="@drawable/baseline_menu_24"
+        android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_reminderString" />
 </menu>
