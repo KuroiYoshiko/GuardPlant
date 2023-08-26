@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottomMenu_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottomMenu_homeString" />
+    <item
+        android:id="@+id/bottomMenu_myPlants"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottomMenu_myPlantsString" />
+    <item
+        android:id="@+id/bottomMenu_fabPhoto"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:id="@+id/bottomMenu_diagnose"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottomMenu_diagnoseString" />
+    <item
+        android:id="@+id/bottomMenu_more"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottomMenu_reminderString" />
+</menu>

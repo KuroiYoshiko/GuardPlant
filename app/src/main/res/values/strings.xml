@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GuardPlant</string>
+    <string name="bottomMenu_myPlantsString">My Plants</string>
+    <string name="bottomMenu_homeString">Home</string>
+    <string name="bottomMenu_reminderString">Reminders</string>
+    <string name="bottomMenu_diagnoseString">Diagnose</string>
 </resources>
