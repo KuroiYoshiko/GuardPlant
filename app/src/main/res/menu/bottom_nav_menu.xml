@@ -19,7 +19,7 @@
         android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_diagnoseString" />
     <item
-        android:id="@+id/bottomMenu_more"
+        android:id="@+id/bottomMenu_reminders"
         android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_reminderString" />
 </menu>
