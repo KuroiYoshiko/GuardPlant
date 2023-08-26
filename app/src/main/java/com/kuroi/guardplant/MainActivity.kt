@@ -16,15 +16,15 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        replaceFragment(HomeFragment())
+        replaceFragment(CalendarFragment())
 
         binding.bottomNavView.setOnItemSelectedListener { item ->
             when(item.itemId) {
-                R.id.bottomMenu_home -> replaceFragment(HomeFragment())
+                R.id.bottomMenu_calendar -> replaceFragment(CalendarFragment())
                 R.id.bottomMenu_diagnose -> replaceFragment(DiagnoseFragment())
                 R.id.bottomMenu_reminders -> replaceFragment(RemindersFragment())
-                R.id.bottomMenu_myPlants -> replaceFragment(HomeFragment())
-                else -> replaceFragment(HomeFragment())
+                R.id.bottomMenu_myPlants -> replaceFragment(CalendarFragment())
+                else -> replaceFragment(CalendarFragment())
             }
             true
         }

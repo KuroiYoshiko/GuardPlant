@@ -2,24 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/bottomMenu_home"
-        android:icon="@drawable/baseline_home_24"
-        android:title="@string/bottomMenu_homeString" />
+
     <item
         android:id="@+id/bottomMenu_myPlants"
         android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_myPlantsString" />
     <item
-        android:id="@+id/bottomMenu_fabPhoto"
-        android:title=""
-        android:enabled="false"/>
-    <item
         android:id="@+id/bottomMenu_diagnose"
         android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_diagnoseString" />
     <item
+        android:id="@+id/bottomMenu_fabPhoto"
+        android:title=""
+        android:enabled="false"/>
+    <item
         android:id="@+id/bottomMenu_reminders"
         android:icon="@drawable/baseline_home_24"
         android:title="@string/bottomMenu_reminderString" />
+    <item
+        android:id="@+id/bottomMenu_calendar"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="@string/bottomMenu_calendarString" />
 </menu>
