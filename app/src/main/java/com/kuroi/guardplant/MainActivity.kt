@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
                 R.id.bottomMenu_home -> replaceFragment(HomeFragment())
                 R.id.bottomMenu_diagnose -> replaceFragment(DiagnoseFragment())
                 R.id.bottomMenu_reminders -> replaceFragment(RemindersFragment())
-                R.id.bottomMenu_myPlants -> replaceFragment(MyPlantsFragment())
+                R.id.bottomMenu_myPlants -> replaceFragment(HomeFragment())
                 else -> replaceFragment(HomeFragment())
             }
             true
         }
-        
+
     }
 
     private fun replaceFragment(fragment: Fragment) {
