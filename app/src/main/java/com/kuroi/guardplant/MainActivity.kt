@@ -83,6 +83,10 @@ class MainActivity : AppCompatActivity() {
         if(resultCode == Activity.RESULT_OK) {
             if(requestCode == CAMERA_REQUEST_CODE) {
                 val plantImage: Bitmap = data!!.extras!!.get("data") as Bitmap
+                val intent = Intent(this, ScannedPictureActivity::class.java)
+                intent.putExtra("plantImage", plantImage)
+                startActivity(intent)
+
             }
         }
     }
