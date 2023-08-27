@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.kuroi.guardplant.databinding.ActivityMainBinding
+import com.kuroi.guardplant.scanningpicture.ScannedPictureActivity
 
 private lateinit var binding: ActivityMainBinding
 

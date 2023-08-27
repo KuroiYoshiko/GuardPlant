@@ -20,7 +20,7 @@
         android:theme="@style/Theme.GuardPlant"
         tools:targetApi="31">
         <activity
-            android:name=".ScannedPictureActivity"
+            android:name=".scanningpicture.ScannedPictureActivity"
             android:exported="false"
             android:label="@string/title_activity_scanned_picture"
             android:theme="@style/Theme.GuardPlant" />
