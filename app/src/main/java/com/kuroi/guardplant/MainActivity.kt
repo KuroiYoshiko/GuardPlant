@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.kuroi.guardplant.databinding.ActivityMainBinding
+import com.kuroi.guardplant.scanningpicture.ScannedPictureActivity
 
 private lateinit var binding: ActivityMainBinding
 
@@ -83,6 +84,10 @@ class MainActivity : AppCompatActivity() {
         if(resultCode == Activity.RESULT_OK) {
             if(requestCode == CAMERA_REQUEST_CODE) {
                 val plantImage: Bitmap = data!!.extras!!.get("data") as Bitmap
+                val intent = Intent(this, ScannedPictureActivity::class.java)
+                intent.putExtra("plantImage", plantImage)
+                startActivity(intent)
+
             }
         }
     }

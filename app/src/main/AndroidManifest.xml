@@ -6,8 +6,8 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +19,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuardPlant"
         tools:targetApi="31">
+        <activity
+            android:name=".scanningpicture.ScannedPictureActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scanned_picture"
+            android:theme="@style/Theme.GuardPlant" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
