@@ -1,4 +1,4 @@
-package com.kuroi.guardplant.ui.home
+package com.kuroi.guardplant.ui.more
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,29 +7,29 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.kuroi.guardplant.databinding.FragmentHomeBinding
+import com.kuroi.guardplant.databinding.FragmentMoreBinding
 
-class HomeFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+class MoreFragment : Fragment() {
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+    private var _binding: FragmentMoreBinding? = null
     private val binding get() = _binding!!
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val moreViewModel =
+            ViewModelProvider(this).get(MoreViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentMoreBinding.inflate(inflater, container, false)
         val root: View = binding.root
+        android.util.Log.w("More", "onCreateView")
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textMore
+        moreViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

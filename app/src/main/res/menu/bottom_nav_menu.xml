@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/bottomMenu_myPlants"
+        android:id="@+id/navigation_my_plants"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="My Plants" />
 
     <item
-        android:id="@+id/bottomMenu_diagnose"
+        android:id="@+id/navigation_diagnose"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="Diagnose" />
 
@@ -16,13 +16,13 @@
         android:enabled="false"/>
 
     <item
-        android:id="@+id/bottomMenu_reminders"
+        android:id="@+id/navigation_reminder"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="Reminder" />
 
     <item
-        android:id="@+id/bottomMenu_calendar"
+        android:id="@+id/navigation_more"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="Calendar" />
+        android:title="More" />
 
 </menu>

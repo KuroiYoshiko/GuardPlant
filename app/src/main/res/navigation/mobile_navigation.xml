@@ -3,23 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_my_plants">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.kuroi.guardplant.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_my_plants"
+        android:name="com.kuroi.guardplant.ui.myPlants.MyPlantsFragment"
+        android:label="My Plants"
+        tools:layout="@layout/fragment_my_plants" >
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.kuroi.guardplant.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_diagnose"
+        android:name="com.kuroi.guardplant.ui.diagnose.DiagnoseFragment"
+        android:label="Diagnose"
+        tools:layout="@layout/fragment_diagnose" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_reminder"
         android:name="com.kuroi.guardplant.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.kuroi.guardplant.ui.more.MoreFragment"
+        android:label="More"
+        tools:layout="@layout/fragment_more" />
+
 </navigation>

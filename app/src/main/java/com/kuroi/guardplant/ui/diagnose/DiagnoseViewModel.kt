@@ -1,13 +1,13 @@
-package com.kuroi.guardplant.ui.home
+package com.kuroi.guardplant.ui.diagnose
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class DiagnoseViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "Diagnose !"
     }
     val text: LiveData<String> = _text
 }
