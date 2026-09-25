@@ -31,6 +31,7 @@ import com.kuroi.guardplant.core.designsystem.component.EmptyState
 import com.kuroi.guardplant.core.designsystem.component.ScreenHeader
 import com.kuroi.guardplant.core.designsystem.component.SectionHeader
 import com.kuroi.guardplant.core.model.CareAction
+import java.time.LocalTime
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
@@ -66,6 +67,7 @@ fun OverviewRoute(careRepository: CareRepository, onSettings: () -> Unit) {
     val overdue = openTasks.filter { it.dueDate.isBefore(DemoToday) }
     val due = openTasks.filter { it.dueDate == DemoToday }
     val upcoming = openTasks.filter { it.dueDate.isAfter(DemoToday) }.sortedBy { it.dueDate }
+    val greeting = greetingForHour(LocalTime.now().hour)
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -74,7 +76,7 @@ fun OverviewRoute(careRepository: CareRepository, onSettings: () -> Unit) {
     ) {
         item {
             ScreenHeader(
-                title = "Good morning",
+                title = greeting,
                 subtitle = "Here’s what your plants need today.",
                 action = { IconButton(onClick = onSettings) { Icon(Icons.Rounded.Settings, "Settings") } },
             )
@@ -125,4 +127,10 @@ fun OverviewRoute(careRepository: CareRepository, onSettings: () -> Unit) {
         }
         item { Spacer(Modifier.height(12.dp)) }
     }
+}
+
+internal fun greetingForHour(hour: Int): String = when (hour) {
+    in 5..11 -> "Good morning"
+    in 12..17 -> "Good afternoon"
+    else -> "Good evening"
 }

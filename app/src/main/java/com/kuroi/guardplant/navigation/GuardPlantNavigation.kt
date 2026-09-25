@@ -1,9 +1,14 @@
 package com.kuroi.guardplant.navigation
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.consumeWindowInsets
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.CalendarMonth
@@ -100,7 +105,11 @@ fun GuardPlantNavigation(
     }
 
     Scaffold(
-        contentWindowInsets = WindowInsets(0.dp),
+        contentWindowInsets = if (showBottomBar) {
+            WindowInsets.safeDrawing.only(WindowInsetsSides.Top + WindowInsetsSides.Horizontal)
+        } else {
+            WindowInsets(0.dp)
+        },
         bottomBar = {
             if (showBottomBar) {
                 GuardPlantBottomBar(
@@ -113,39 +122,43 @@ fun GuardPlantNavigation(
         NavDisplay(
             entries = navigationState.decoratedEntries(provider),
             onBack = navigator::goBack,
-            modifier = Modifier.padding(innerPadding),
+            modifier = Modifier.padding(innerPadding).consumeWindowInsets(innerPadding),
         )
     }
 }
 
 @Composable
 private fun GuardPlantBottomBar(selected: NavKey, onSelect: (NavKey) -> Unit) {
-    NavigationBar {
-        topLevelItems.forEach { item ->
-            val isScan = item.key == ScanKey
-            NavigationBarItem(
-                selected = selected == item.key,
-                onClick = { onSelect(item.key) },
-                icon = {
-                    if (isScan) {
-                        Surface(
-                            color = MaterialTheme.colorScheme.primary,
-                            contentColor = MaterialTheme.colorScheme.onPrimary,
-                            shape = androidx.compose.foundation.shape.CircleShape,
-                            shadowElevation = 6.dp,
-                            modifier = Modifier.size(52.dp).offset(y = (-8).dp),
-                        ) {
-                            Box(contentAlignment = Alignment.Center) { Icon(item.icon, item.label, Modifier.size(25.dp)) }
-                        }
-                    } else Icon(item.icon, item.label)
-                },
-                label = { Text(item.label) },
-                colors = if (isScan) androidx.compose.material3.NavigationBarItemDefaults.colors(
-                    selectedIconColor = Color.Transparent,
-                    unselectedIconColor = Color.Transparent,
-                    indicatorColor = Color.Transparent,
-                ) else androidx.compose.material3.NavigationBarItemDefaults.colors(),
-            )
+    Box(modifier = Modifier.fillMaxWidth()) {
+        NavigationBar(modifier = Modifier.fillMaxWidth().padding(top = 18.dp)) {
+            topLevelItems.forEach { item ->
+                val isScan = item.key == ScanKey
+                NavigationBarItem(
+                    selected = selected == item.key,
+                    onClick = { onSelect(item.key) },
+                    icon = {
+                        if (isScan) Spacer(Modifier.size(52.dp)) else Icon(item.icon, item.label)
+                    },
+                    label = { Text(item.label) },
+                    colors = if (isScan) androidx.compose.material3.NavigationBarItemDefaults.colors(
+                        selectedIconColor = Color.Transparent,
+                        unselectedIconColor = Color.Transparent,
+                        indicatorColor = Color.Transparent,
+                    ) else androidx.compose.material3.NavigationBarItemDefaults.colors(),
+                )
+            }
+        }
+        Surface(
+            onClick = { onSelect(ScanKey) },
+            color = MaterialTheme.colorScheme.primary,
+            contentColor = MaterialTheme.colorScheme.onPrimary,
+            shape = androidx.compose.foundation.shape.CircleShape,
+            shadowElevation = 6.dp,
+            modifier = Modifier.align(Alignment.TopCenter).size(56.dp),
+        ) {
+            Box(contentAlignment = Alignment.Center) {
+                Icon(Icons.Rounded.CameraAlt, "Scan", Modifier.size(27.dp))
+            }
         }
     }
 }
