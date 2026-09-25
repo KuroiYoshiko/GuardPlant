@@ -132,6 +132,21 @@ class SpeciesCatalogueTest {
     }
 
     @Test
+    fun everyCatalogueSpeciesHasExactlyOneMatchingDrawable() {
+        val drawableDirectory = projectDirectory(
+            "app/src/main/res/drawable-nodpi",
+            "src/main/res/drawable-nodpi",
+        )
+        val imageIds = requireNotNull(drawableDirectory.listFiles())
+            .filter { it.isFile && it.extension.equals("webp", ignoreCase = true) }
+            .map { it.nameWithoutExtension }
+
+        assertEquals(70, imageIds.size)
+        assertEquals(imageIds.size, imageIds.toSet().size)
+        assertEquals(catalogue.map(Species::speciesId).toSet(), imageIds.toSet())
+    }
+
+    @Test
     fun favouritesRemainSeparateMutableUserState() {
         val original = requireNotNull(repository.getSpeciesById("epipremnum_aureum"))
         assertFalse(original.speciesId in repository.favouriteSpeciesIds.value)
@@ -153,5 +168,11 @@ class SpeciesCatalogueTest {
         .asSequence()
         .map(::File)
         .firstOrNull(File::isFile)
+        ?: error("Could not locate any of: ${candidates.joinToString()}")
+
+    private fun projectDirectory(vararg candidates: String): File = candidates
+        .asSequence()
+        .map(::File)
+        .firstOrNull(File::isDirectory)
         ?: error("Could not locate any of: ${candidates.joinToString()}")
 }

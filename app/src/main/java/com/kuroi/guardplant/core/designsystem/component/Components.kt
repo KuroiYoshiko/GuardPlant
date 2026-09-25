@@ -1,5 +1,6 @@
 package com.kuroi.guardplant.core.designsystem.component
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -33,10 +34,14 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -48,6 +53,7 @@ import com.kuroi.guardplant.core.model.CareTask
 import com.kuroi.guardplant.core.model.Species
 import com.kuroi.guardplant.core.model.UserPlant
 import com.kuroi.guardplant.core.presentation.speciesAccent
+import com.kuroi.guardplant.core.presentation.speciesImageResource
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -102,6 +108,23 @@ fun PlantArtwork(accent: Long, modifier: Modifier = Modifier, label: String = "P
 }
 
 @Composable
+fun SpeciesArtwork(speciesId: String, modifier: Modifier = Modifier, label: String = "Plant") {
+    val context = LocalContext.current
+    val imageResource = remember(context, speciesId) { speciesImageResource(context, speciesId) }
+
+    if (imageResource != 0) {
+        Image(
+            painter = painterResource(imageResource),
+            contentDescription = label,
+            contentScale = ContentScale.Crop,
+            modifier = modifier.clip(MaterialTheme.shapes.large),
+        )
+    } else {
+        PlantArtwork(speciesAccent(speciesId), modifier, label)
+    }
+}
+
+@Composable
 fun SearchField(value: String, onValueChange: (String) -> Unit, placeholder: String) {
     OutlinedTextField(
         value = value,
@@ -128,7 +151,7 @@ fun SpeciesCard(
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
     ) {
         Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
-            PlantArtwork(speciesAccent(species.speciesId), Modifier.size(82.dp), species.commonNames.first())
+            SpeciesArtwork(species.speciesId, Modifier.size(82.dp), species.commonNames.first())
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
                 Text(species.commonNames.first(), style = MaterialTheme.typography.titleMedium)

@@ -40,11 +40,11 @@ import com.kuroi.guardplant.core.data.PlantRepository
 import com.kuroi.guardplant.core.data.SpeciesRepository
 import com.kuroi.guardplant.core.designsystem.component.EmptyState
 import com.kuroi.guardplant.core.designsystem.component.PlantArtwork
+import com.kuroi.guardplant.core.designsystem.component.SpeciesArtwork
 import com.kuroi.guardplant.core.model.Species
 import com.kuroi.guardplant.core.presentation.fertilizingText
 import com.kuroi.guardplant.core.presentation.labelResource
 import com.kuroi.guardplant.core.presentation.repottingText
-import com.kuroi.guardplant.core.presentation.speciesAccent
 import com.kuroi.guardplant.core.presentation.wateringText
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.combine
@@ -99,7 +99,7 @@ fun SpeciesDetailScreen(speciesId: String, repository: SpeciesRepository, onBack
                 contentPadding = androidx.compose.foundation.layout.PaddingValues(20.dp),
                 verticalArrangement = Arrangement.spacedBy(14.dp),
             ) {
-                item { PlantArtwork(speciesAccent(species.speciesId), Modifier.fillMaxWidth().height(220.dp), species.commonNames.first()) }
+                item { SpeciesArtwork(species.speciesId, Modifier.fillMaxWidth().height(220.dp), species.commonNames.first()) }
                 item {
                     Row {
                         Column(Modifier.weight(1f)) {
