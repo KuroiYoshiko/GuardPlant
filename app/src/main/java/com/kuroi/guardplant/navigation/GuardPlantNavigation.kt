@@ -29,7 +29,7 @@ import androidx.navigation3.runtime.NavKey
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.ui.NavDisplay
 import com.kuroi.guardplant.ThemePreference
-import com.kuroi.guardplant.core.data.fake.AppContainer
+import com.kuroi.guardplant.core.data.AppContainer
 import com.kuroi.guardplant.feature.addplant.AddPlantScreen
 import com.kuroi.guardplant.feature.calendar.CalendarScreen
 import com.kuroi.guardplant.feature.details.PlantDetailScreen

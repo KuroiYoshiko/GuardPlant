@@ -2,30 +2,14 @@ package com.kuroi.guardplant.core.data.fake
 
 import com.kuroi.guardplant.core.data.CareRepository
 import com.kuroi.guardplant.core.data.PlantRepository
-import com.kuroi.guardplant.core.data.SpeciesRepository
 import com.kuroi.guardplant.core.model.CareAction
 import com.kuroi.guardplant.core.model.CareTask
 import com.kuroi.guardplant.core.model.PlantRoom
-import com.kuroi.guardplant.core.model.Species
 import com.kuroi.guardplant.core.model.UserPlant
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-
-class FakeSpeciesRepository : SpeciesRepository {
-    private val _species = MutableStateFlow(FakeData.species)
-    override val species: StateFlow<List<Species>> = _species.asStateFlow()
-
-    private val _favouriteSpeciesIds = MutableStateFlow(setOf("monstera_deliciosa", "chlorophytum_comosum"))
-    override val favouriteSpeciesIds: StateFlow<Set<String>> = _favouriteSpeciesIds.asStateFlow()
-
-    override fun toggleFavourite(speciesId: String) {
-        _favouriteSpeciesIds.update { current ->
-            if (speciesId in current) current - speciesId else current + speciesId
-        }
-    }
-}
 
 class FakePlantRepository : PlantRepository {
     private val _rooms = MutableStateFlow(FakeData.rooms)
@@ -50,7 +34,6 @@ class FakePlantRepository : PlantRepository {
         }
     }
 }
-
 class FakeCareRepository : CareRepository {
     private val _tasks = MutableStateFlow(FakeData.careTasks)
     override val tasks: StateFlow<List<CareTask>> = _tasks.asStateFlow()
@@ -67,9 +50,3 @@ class FakeCareRepository : CareRepository {
         }
     }
 }
-
-class AppContainer(
-    val speciesRepository: SpeciesRepository = FakeSpeciesRepository(),
-    val plantRepository: PlantRepository = FakePlantRepository(),
-    val careRepository: CareRepository = FakeCareRepository(),
-)
