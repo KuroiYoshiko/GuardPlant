@@ -2,49 +2,9 @@ package com.kuroi.guardplant.core.model
 
 import java.time.LocalDate
 
-enum class LightLevel(val label: String) {
-    LOW("Low light"),
-    MEDIUM("Medium indirect"),
-    BRIGHT("Bright indirect"),
-    DIRECT("Some direct sun"),
-}
+enum class HumidityLevel { AVERAGE, MODERATE, HIGH }
 
-enum class HumidityLevel(val label: String) {
-    AVERAGE("Average"),
-    MODERATE("Moderate"),
-    HIGH("High"),
-}
-
-enum class GrowthHabit(val label: String) {
-    UPRIGHT("Upright"),
-    TRAILING("Trailing"),
-    CLIMBING("Climbing"),
-    ROSETTE("Rosette"),
-}
-
-enum class MatureSize(val label: String) {
-    COMPACT("Compact"),
-    MEDIUM("Medium"),
-    LARGE("Large"),
-}
-
-data class Species(
-    val speciesId: String,
-    val scientificName: String,
-    val commonNames: List<String>,
-    val difficulty: Int,
-    val light: LightLevel,
-    val watering: String,
-    val humidity: HumidityLevel,
-    val temperature: String,
-    val soil: String,
-    val growthHabit: GrowthHabit,
-    val matureSize: MatureSize,
-    val toxicToPets: Boolean,
-    val repotting: String,
-    val fertilizing: String,
-    val accent: Long,
-)
+enum class MatureSize { COMPACT, MEDIUM, LARGE }
 
 data class PlantRoom(
     val roomId: String,

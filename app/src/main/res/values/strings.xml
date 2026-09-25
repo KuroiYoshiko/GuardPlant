@@ -1,3 +1,74 @@
 <resources>
     <string name="app_name">Guard Plant</string>
+
+    <string name="light_low">Low light</string>
+    <string name="light_medium_indirect">Medium indirect light</string>
+    <string name="light_bright_indirect">Bright indirect light</string>
+    <string name="light_direct">Direct sunlight</string>
+
+    <string name="watering_surface_drying">When the soil surface begins to dry</string>
+    <string name="watering_top_quarter_dry">When the top quarter of the soil is dry</string>
+    <string name="watering_top_third_dry">When the top third of the soil is dry</string>
+    <string name="watering_top_half_dry">When the top half of the soil is dry</string>
+    <string name="watering_almost_completely_dry">When the soil is almost completely dry</string>
+    <string name="watering_completely_dry">When the soil is completely dry</string>
+    <string name="watering_bark_almost_dry">When the bark is almost dry</string>
+    <string name="watering_mounting_medium_nearly_dry">When the mounting medium is nearly dry</string>
+    <string name="watering_fixed_interval">Water every %1$d days</string>
+    <string name="watering_method_thorough">Water thoroughly</string>
+    <string name="watering_method_bottom">Water from below until evenly moist</string>
+    <string name="watering_method_soak_roots">Soak the roots thoroughly, then drain</string>
+    <string name="watering_method_soak_and_drain">Soak thoroughly, then allow the plant to drain</string>
+    <string name="watering_method_soak_and_dry">Soak thoroughly and ensure the plant dries within four hours</string>
+    <string name="watering_method_avoid_crown">Water the soil while avoiding the crown</string>
+    <string name="watering_active_growth">During active growth</string>
+    <string name="watering_drainage_required">Good drainage is required</string>
+
+    <string name="growth_rate_slow">Slow</string>
+    <string name="growth_rate_medium">Medium</string>
+    <string name="growth_rate_fast">Fast</string>
+    <string name="growth_habit_upright">Upright</string>
+    <string name="growth_habit_trailing">Trailing</string>
+    <string name="growth_habit_climbing">Climbing</string>
+    <string name="growth_habit_clumping">Clumping</string>
+    <string name="growth_habit_rosette">Rosette</string>
+    <string name="growth_habit_bushy">Bushy</string>
+
+    <string name="humidity_average">Average</string>
+    <string name="humidity_moderate">Moderate</string>
+    <string name="humidity_high">High</string>
+    <string name="mature_size_compact">Compact</string>
+    <string name="mature_size_medium">Medium</string>
+    <string name="mature_size_large">Large</string>
+    <string name="humidity_range">%1$d–%2$d%%</string>
+    <string name="temperature_range">%1$d–%2$d°C</string>
+    <string name="height_exact">%1$d cm</string>
+    <string name="height_range">%1$d–%2$d cm</string>
+    <string name="soil_components">Components: %1$s</string>
+    <string name="pet_safe">Pet safe</string>
+    <string name="pet_toxic">Toxic</string>
+    <string name="pet_not_toxic_guidance">Not toxic to pets</string>
+    <string name="pet_toxic_guidance">Toxic to pets</string>
+
+    <string name="repot_none">No repotting required</string>
+    <string name="repot_every_year">Repot every year</string>
+    <string name="repot_every_years">Repot every %1$d years</string>
+    <string name="repot_every_year_range">Repot every %1$d–%2$d years</string>
+    <string name="repot_every_months">Repot every %1$d months</string>
+    <string name="repot_every_month_range">Repot every %1$d–%2$d months</string>
+    <string name="remount_every_years">Remount every %1$d years</string>
+    <string name="remount_every_year_range">Remount every %1$d–%2$d years</string>
+    <string name="remount_every_months">Remount every %1$d months</string>
+    <string name="remount_every_month_range">Remount every %1$d–%2$d months</string>
+    <string name="repot_after_flowering">After flowering</string>
+    <string name="repot_before_active_growth">Before active growth</string>
+
+    <string name="interval_every_days">every %1$d days</string>
+    <string name="interval_every_days_range">every %1$d–%2$d days</string>
+    <string name="fertilizing_seasonal">During active growth, fertilize %1$s</string>
+    <string name="fertilizing_year_round">Fertilize year-round %1$s</string>
+    <string name="fertilizing_none">Routine fertilizing is not recommended</string>
+    <string name="fertilizing_pause">Pause fertilizing during inactive growth</string>
+    <string name="fertilizing_reduce">During inactive growth, reduce fertilizing to %1$s</string>
+    <string name="fertilizing_same">Use the same interval during inactive growth</string>
 </resources>

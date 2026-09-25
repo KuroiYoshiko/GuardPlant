@@ -3,27 +3,13 @@ package com.kuroi.guardplant
 import com.kuroi.guardplant.core.data.fake.DemoToday
 import com.kuroi.guardplant.core.data.fake.FakeCareRepository
 import com.kuroi.guardplant.core.data.fake.FakePlantRepository
-import com.kuroi.guardplant.core.data.fake.FakeSpeciesRepository
 import com.kuroi.guardplant.core.model.CareAction
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class FakeRepositoriesTest {
-    @Test
-    fun favouritesAreStoredSeparatelyFromCatalogue() {
-        val repository = FakeSpeciesRepository()
-        val species = repository.species.value.first { it.speciesId == "epipremnum_aureum" }
-
-        assertFalse(species.speciesId in repository.favouriteSpeciesIds.value)
-        repository.toggleFavourite(species.speciesId)
-
-        assertTrue(species.speciesId in repository.favouriteSpeciesIds.value)
-        assertEquals(species, repository.species.value.first { it.speciesId == species.speciesId })
-    }
-
     @Test
     fun stillMoistDefersTaskByTwoDays() {
         val repository = FakeCareRepository()
