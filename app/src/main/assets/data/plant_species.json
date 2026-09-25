@@ -1,0 +1,3712 @@
+[
+  {
+    "id": "monstera_deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "commonNames": [
+      "Monstera",
+      "Swiss Cheese Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 100,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "monstera_adansonii",
+    "scientificName": "Monstera adansonii",
+    "commonNames": [
+      "Swiss Cheese Vine",
+      "Adanson's Monstera"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 240
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "epipremnum_aureum",
+    "scientificName": "Epipremnum aureum",
+    "commonNames": [
+      "Golden Pothos",
+      "Devil's Ivy"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "scindapsus_pictus",
+    "scientificName": "Scindapsus pictus",
+    "commonNames": [
+      "Satin Pothos",
+      "Silver Vine"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 240
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "philodendron_hederaceum",
+    "scientificName": "Philodendron hederaceum",
+    "commonNames": [
+      "Heartleaf Philodendron",
+      "Heartleaf Philodendron Vine"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "philodendron_erubescens",
+    "scientificName": "Philodendron erubescens",
+    "commonNames": [
+      "Blushing Philodendron",
+      "Red-leaf Philodendron"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 100,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "rhaphidophora_tetrasperma",
+    "scientificName": "Rhaphidophora tetrasperma",
+    "commonNames": [
+      "Mini Monstera",
+      "Dwarf Monstera"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 100,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "syngonium_podophyllum",
+    "scientificName": "Syngonium podophyllum",
+    "commonNames": [
+      "Arrowhead Plant",
+      "Arrowhead Vine"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "spathiphyllum_wallisii",
+    "scientificName": "Spathiphyllum wallisii",
+    "commonNames": [
+      "Peace Lily",
+      "White Sails"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining tropical plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 70
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "zamioculcas_zamiifolia",
+    "scientificName": "Zamioculcas zamiifolia",
+    "commonNames": [
+      "ZZ Plant",
+      "Zanzibar Gem"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "LOW",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 45,
+        "maximum": 100
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "aglaonema_commutatum",
+    "scientificName": "Aglaonema commutatum",
+    "commonNames": [
+      "Chinese Evergreen",
+      "Philippine Evergreen"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "LOW",
+      "soil": {
+        "type": "Well-draining tropical plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "dieffenbachia_seguine",
+    "scientificName": "Dieffenbachia seguine",
+    "commonNames": [
+      "Dumb Cane",
+      "Leopard Lily"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining tropical plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "anthurium_andraeanum",
+    "scientificName": "Anthurium andraeanum",
+    "commonNames": [
+      "Flamingo Flower",
+      "Flamingo Lily"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Orchid bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "alocasia_zebrina",
+    "scientificName": "Alocasia zebrina",
+    "commonNames": [
+      "Zebra Alocasia",
+      "Zebra-stem Alocasia"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 60,
+        "maximumPercent": 85
+      },
+      "temperature": {
+        "minimumCelsius": 20,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 150
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "fittonia_albivenis",
+    "scientificName": "Fittonia albivenis",
+    "commonNames": [
+      "Nerve Plant",
+      "Mosaic Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "SURFACE_DRYING",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 10,
+        "maximum": 20
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "dracaena_trifasciata",
+    "scientificName": "Dracaena trifasciata",
+    "commonNames": [
+      "Snake Plant",
+      "Mother-in-Law's Tongue"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "LOW",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 120
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "dracaena_angolensis",
+    "scientificName": "Dracaena angolensis",
+    "commonNames": [
+      "Cylindrical Snake Plant",
+      "African Spear Plant"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "dracaena_fragrans",
+    "scientificName": "Dracaena fragrans",
+    "commonNames": [
+      "Corn Plant",
+      "Mass Cane"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 250
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "chlorophytum_comosum",
+    "scientificName": "Chlorophytum comosum",
+    "commonNames": [
+      "Spider Plant",
+      "Ribbon Plant"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 45
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "ficus_elastica",
+    "scientificName": "Ficus elastica",
+    "commonNames": [
+      "Rubber Plant",
+      "Rubber Tree"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "ficus_lyrata",
+    "scientificName": "Ficus lyrata",
+    "commonNames": [
+      "Fiddle Leaf Fig",
+      "Banjo Fig"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "ficus_benjamina",
+    "scientificName": "Ficus benjamina",
+    "commonNames": [
+      "Weeping Fig",
+      "Benjamin Fig"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "ficus_microcarpa",
+    "scientificName": "Ficus microcarpa",
+    "commonNames": [
+      "Chinese Banyan",
+      "Indian Laurel"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 250
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "pachira_aquatica",
+    "scientificName": "Pachira aquatica",
+    "commonNames": [
+      "Money Tree",
+      "Guiana Chestnut"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 250
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "heptapleurum_arboricola",
+    "scientificName": "Heptapleurum arboricola",
+    "commonNames": [
+      "Dwarf Umbrella Tree",
+      "Hawaiian Umbrella Tree"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 90,
+        "maximum": 240
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "codiaeum_variegatum",
+    "scientificName": "Codiaeum variegatum",
+    "commonNames": [
+      "Croton",
+      "Garden Croton"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining tropical plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "yucca_gigantea",
+    "scientificName": "Yucca gigantea",
+    "commonNames": [
+      "Spineless Yucca",
+      "Giant Yucca"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "ALMOST_COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "beaucarnea_recurvata",
+    "scientificName": "Beaucarnea recurvata",
+    "commonNames": [
+      "Ponytail Palm",
+      "Elephant Foot Tree"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 90,
+        "maximum": 240
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 36,
+        "maximumIntervalMonths": 48,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "pilea_peperomioides",
+    "scientificName": "Pilea peperomioides",
+    "commonNames": [
+      "Chinese Money Plant",
+      "Pancake Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 40
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "peperomia_obtusifolia",
+    "scientificName": "Peperomia obtusifolia",
+    "commonNames": [
+      "Baby Rubber Plant",
+      "Pepper Face"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 40
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "hoya_carnosa",
+    "scientificName": "Hoya carnosa",
+    "commonNames": [
+      "Wax Plant",
+      "Common Hoya"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining epiphyte mix",
+        "components": [
+          "Orchid bark",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "ceropegia_woodii",
+    "scientificName": "Ceropegia woodii",
+    "commonNames": [
+      "String of Hearts",
+      "Rosary Vine"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 200
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "tradescantia_zebrina",
+    "scientificName": "Tradescantia zebrina",
+    "commonNames": [
+      "Inch Plant",
+      "Zebra Spiderwort"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "hedera_helix",
+    "scientificName": "Hedera helix",
+    "commonNames": [
+      "English Ivy",
+      "Common Ivy"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 24
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLIMBING",
+      "matureHeightCentimeters": {
+        "minimum": 100,
+        "maximum": 500
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_orbifolia",
+    "scientificName": "Goeppertia orbifolia",
+    "commonNames": [
+      "Round Leaf Calathea",
+      "Prayer Plant Orbifolia"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 60,
+        "maximumPercent": 85
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 50,
+        "maximum": 100
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_makoyana",
+    "scientificName": "Goeppertia makoyana",
+    "commonNames": [
+      "Peacock Plant",
+      "Cathedral Windows"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "maranta_leuconeura",
+    "scientificName": "Maranta leuconeura",
+    "commonNames": [
+      "Prayer Plant",
+      "Rabbit Tracks"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 40
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "nephrolepis_exaltata",
+    "scientificName": "Nephrolepis exaltata",
+    "commonNames": [
+      "Boston Fern",
+      "Sword Fern"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "SURFACE_DRYING",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining fern soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "asplenium_nidus",
+    "scientificName": "Asplenium nidus",
+    "commonNames": [
+      "Bird's Nest Fern",
+      "Nest Fern"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "WATER_SOIL_AVOID_CROWN",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining fern soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "phalaenopsis_amabilis",
+    "scientificName": "Phalaenopsis amabilis",
+    "commonNames": [
+      "Moon Orchid",
+      "Moth Orchid"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "BARK_ALMOST_DRY",
+        "method": "SOAK_ROOTS_AND_DRAIN",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Chunky well-draining epiphyte mix",
+        "components": [
+          "Orchid bark",
+          "Sphagnum moss",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 50,
+        "maximum": 100
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "schlumbergera_truncata",
+    "scientificName": "Schlumbergera truncata",
+    "commonNames": [
+      "Thanksgiving Cactus",
+      "Crab Cactus"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Airy moisture-retentive epiphyte mix",
+        "components": [
+          "Cactus soil",
+          "Orchid bark",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "crassula_ovata",
+    "scientificName": "Crassula ovata",
+    "commonNames": [
+      "Jade Plant",
+      "Money Plant"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 45,
+        "maximum": 150
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "aloe_vera",
+    "scientificName": "Aloe vera",
+    "commonNames": [
+      "Aloe Vera",
+      "Medicinal Aloe"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "kalanchoe_blossfeldiana",
+    "scientificName": "Kalanchoe blossfeldiana",
+    "commonNames": [
+      "Flaming Katy",
+      "Christmas Kalanchoe"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 45
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "euphorbia_pulcherrima",
+    "scientificName": "Euphorbia pulcherrima",
+    "commonNames": [
+      "Poinsettia",
+      "Christmas Star"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining tropical plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 24
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 120
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 12,
+        "timing": "AFTER_FLOWERING"
+      }
+    }
+  },
+  {
+    "id": "streptocarpus_ionanthus",
+    "scientificName": "Streptocarpus ionanthus",
+    "commonNames": [
+      "African Violet",
+      "Usambara Violet"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "BOTTOM_WATER",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining flowering plant soil",
+        "components": [
+          "African violet potting mix",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 10,
+        "maximum": 25
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 12,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "begonia_maculata",
+    "scientificName": "Begonia maculata",
+    "commonNames": [
+      "Polka Dot Begonia",
+      "Spotted Begonia"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 150
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "chamaedorea_elegans",
+    "scientificName": "Chamaedorea elegans",
+    "commonNames": [
+      "Parlour Palm",
+      "Parlor Palm"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "LOW",
+      "soil": {
+        "type": "Well-draining palm soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "strelitzia_nicolai",
+    "scientificName": "Strelitzia nicolai",
+    "commonNames": [
+      "White Bird of Paradise",
+      "Giant Bird of Paradise"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Rich moisture-retentive tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Compost"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 150,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "oxalis_triangularis",
+    "scientificName": "Oxalis triangularis",
+    "commonNames": [
+      "Purple Shamrock",
+      "False Shamrock"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": "ACTIVE_GROWTH",
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Rich well-draining flowering plant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Compost"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 30,
+        "maximumPercent": 60
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 15,
+        "maximum": 30
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_insignis",
+    "scientificName": "Goeppertia insignis",
+    "commonNames": [
+      "Rattlesnake Calathea",
+      "Rattlesnake Plant"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 75
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_zebrina",
+    "scientificName": "Goeppertia zebrina",
+    "commonNames": [
+      "Zebra Calathea",
+      "Zebra Plant"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 60,
+        "maximumPercent": 85
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 45,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_ornata",
+    "scientificName": "Goeppertia ornata",
+    "commonNames": [
+      "Pinstripe Calathea",
+      "Pinstripe Plant"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 60,
+        "maximumPercent": 85
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_roseopicta",
+    "scientificName": "Goeppertia roseopicta",
+    "commonNames": [
+      "Rose-Painted Calathea",
+      "Rose-painted Prayer Plant"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 60,
+        "maximumPercent": 85
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "goeppertia_rufibarba",
+    "scientificName": "Goeppertia rufibarba",
+    "commonNames": [
+      "Furry Feather Calathea",
+      "Velvet Calathea"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 45,
+        "maximum": 100
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "maranta_cristata",
+    "scientificName": "Maranta cristata",
+    "commonNames": [
+      "Bicolor Prayer Plant",
+      "Bicolor Maranta"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 28
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 40
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "maranta_arundinacea",
+    "scientificName": "Maranta arundinacea",
+    "commonNames": [
+      "Arrowroot",
+      "West Indian Arrowroot"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 150
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "caladium_bicolor",
+    "scientificName": "Caladium bicolor",
+    "commonNames": [
+      "Angel Wings",
+      "Heart of Jesus"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": "ACTIVE_GROWTH",
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining aroid mix",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 20,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 75
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 12,
+        "timing": "BEFORE_ACTIVE_GROWTH"
+      }
+    }
+  },
+  {
+    "id": "peperomia_caperata",
+    "scientificName": "Peperomia caperata",
+    "commonNames": [
+      "Emerald Ripple Peperomia",
+      "Ripple Peperomia"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining houseplant soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Coco coir"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 15,
+        "maximum": 25
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "echeveria_elegans",
+    "scientificName": "Echeveria elegans",
+    "commonNames": [
+      "Mexican Snowball",
+      "Mexican Gem"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "DIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 10,
+        "maximum": 20
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "haworthiopsis_attenuata",
+    "scientificName": "Haworthiopsis attenuata",
+    "commonNames": [
+      "Zebra Haworthia",
+      "Zebra Plant Haworthia"
+    ],
+    "care": {
+      "difficulty": 1,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "COMPLETELY_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Fast-draining succulent soil",
+        "components": [
+          "Cactus soil",
+          "Perlite",
+          "Coarse sand"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 20,
+        "maximumPercent": 50
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 10,
+        "maximum": 20
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "hypoestes_phyllostachya",
+    "scientificName": "Hypoestes phyllostachya",
+    "commonNames": [
+      "Polka Dot Plant",
+      "Freckle Face Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_QUARTER_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Moisture-retentive well-draining tropical soil",
+        "components": [
+          "Potting soil",
+          "Coco coir",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 20,
+        "maximum": 50
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 12,
+        "maximumIntervalMonths": 12,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "tillandsia_ionantha",
+    "scientificName": "Tillandsia ionantha",
+    "commonNames": [
+      "Sky Plant",
+      "Blushing Bride Air Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "FIXED_INTERVAL",
+        "trigger": null,
+        "method": "SOAK_AND_DRY_WITHIN_4_HOURS",
+        "seasonalContext": null,
+        "intervalDays": 7,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "No-soil air plant mount",
+        "components": [
+          "Air",
+          "Cork bark",
+          "Sphagnum moss"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 15,
+        "maximumCelsius": 30
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "ROSETTE",
+      "matureHeightCentimeters": {
+        "minimum": 5,
+        "maximum": 15
+      },
+      "repotting": {
+        "action": "NONE",
+        "minimumIntervalMonths": null,
+        "maximumIntervalMonths": null,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "disocactus_anguliger",
+    "scientificName": "Disocactus anguliger",
+    "commonNames": [
+      "Fishbone Cactus",
+      "Zigzag Cactus"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Airy moisture-retentive epiphyte mix",
+        "components": [
+          "Cactus soil",
+          "Orchid bark",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 11,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "FAST",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 120
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "rhipsalis_baccifera",
+    "scientificName": "Rhipsalis baccifera",
+    "commonNames": [
+      "Mistletoe Cactus",
+      "Spaghetti Cactus"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Airy moisture-retentive epiphyte mix",
+        "components": [
+          "Cactus soil",
+          "Orchid bark",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 60,
+        "maximum": 180
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 36,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "araucaria_heterophylla",
+    "scientificName": "Araucaria heterophylla",
+    "commonNames": [
+      "Norfolk Island Pine",
+      "Star Pine"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 24
+      }
+    },
+    "toxicity": {
+      "toxicToPets": true
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 120,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 36,
+        "maximumIntervalMonths": 48,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "howea_forsteriana",
+    "scientificName": "Howea forsteriana",
+    "commonNames": [
+      "Kentia Palm",
+      "Paradise Palm"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_HALF_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining palm soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "SLOW",
+      "habit": "UPRIGHT",
+      "matureHeightCentimeters": {
+        "minimum": 150,
+        "maximum": 300
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 36,
+        "maximumIntervalMonths": 48,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "fatsia_japonica",
+    "scientificName": "Fatsia japonica",
+    "commonNames": [
+      "Japanese Aralia",
+      "Glossy-leaf Paper Plant"
+    ],
+    "care": {
+      "difficulty": 2,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "MEDIUM_INDIRECT",
+      "soil": {
+        "type": "Well-draining woody tropical soil",
+        "components": [
+          "Potting soil",
+          "Perlite",
+          "Pine bark"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 40,
+        "maximumPercent": 70
+      },
+      "temperature": {
+        "minimumCelsius": 10,
+        "maximumCelsius": 24
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "BUSHY",
+      "matureHeightCentimeters": {
+        "minimum": 90,
+        "maximum": 200
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "platycerium_bifurcatum",
+    "scientificName": "Platycerium bifurcatum",
+    "commonNames": [
+      "Staghorn Fern",
+      "Common Staghorn Fern"
+    ],
+    "care": {
+      "difficulty": 4,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "MOUNTING_MEDIUM_NEARLY_DRY",
+        "method": "SOAK_AND_DRAIN",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Airy moisture-retentive epiphyte mix",
+        "components": [
+          "Orchid bark",
+          "Sphagnum moss",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 80
+      },
+      "temperature": {
+        "minimumCelsius": 16,
+        "maximumCelsius": 29
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "CLUMPING",
+      "matureHeightCentimeters": {
+        "minimum": 45,
+        "maximum": 120
+      },
+      "repotting": {
+        "action": "REMOUNT",
+        "minimumIntervalMonths": 36,
+        "maximumIntervalMonths": 60,
+        "timing": null
+      }
+    }
+  },
+  {
+    "id": "aeschynanthus_radicans",
+    "scientificName": "Aeschynanthus radicans",
+    "commonNames": [
+      "Lipstick Plant",
+      "Basket Vine"
+    ],
+    "care": {
+      "difficulty": 3,
+      "watering": {
+        "mode": "SUBSTRATE_CHECK",
+        "trigger": "TOP_THIRD_DRY",
+        "method": "THOROUGH",
+        "seasonalContext": null,
+        "intervalDays": null,
+        "drainageRequired": true
+      },
+      "light": "BRIGHT_INDIRECT",
+      "soil": {
+        "type": "Airy moisture-retentive epiphyte mix",
+        "components": [
+          "Cactus soil",
+          "Orchid bark",
+          "Perlite"
+        ]
+      },
+      "humidity": {
+        "minimumPercent": 50,
+        "maximumPercent": 75
+      },
+      "temperature": {
+        "minimumCelsius": 18,
+        "maximumCelsius": 27
+      }
+    },
+    "toxicity": {
+      "toxicToPets": false
+    },
+    "growth": {
+      "rate": "MEDIUM",
+      "habit": "TRAILING",
+      "matureHeightCentimeters": {
+        "minimum": 30,
+        "maximum": 90
+      },
+      "repotting": {
+        "action": "REPOT",
+        "minimumIntervalMonths": 24,
+        "maximumIntervalMonths": 24,
+        "timing": null
+      }
+    }
+  }
+]
